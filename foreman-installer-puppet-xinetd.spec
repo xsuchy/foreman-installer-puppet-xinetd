@@ -3,7 +3,7 @@
 
 Name:		foreman-installer-puppet-xinetd
 Version:	0
-Release:	0%{foreman_hash}%{?dist}
+Release:	1%{foreman_hash}%{?dist}
 Summary:	Apache class for xinetd
 
 Group:		Applications/System
@@ -30,3 +30,6 @@ cp -a manifests %{buildroot}/%{foreman_root}/
 %{foreman_root}
 
 %changelog
+* Tue Nov 20 2012 Miroslav Suchý <msuchy@redhat.com> 0-1.09540eb
+- new package built with tito
+

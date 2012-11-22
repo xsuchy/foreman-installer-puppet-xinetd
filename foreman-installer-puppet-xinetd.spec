@@ -23,8 +23,8 @@ Xinetd class for Puppet for Foreman installer.
 #nothing to do
 
 %install
-mkdir -p %{buildroot}/%{foreman_root}
-cp -a manifests %{buildroot}/%{foreman_root}/
+mkdir -p %{buildroot}/%{foreman_root}/xinetd
+cp -a manifests %{buildroot}/%{foreman_root}/xinetd/
 
 %files
 %{foreman_root}
